@@ -1,12 +1,13 @@
 {
   "manifest_version": 3,
-  "name": "عربي - فرانكو",
+  "name": "عربي - Franko",
   "version": "1.0.0",
   "description": "Translating Franko To Arabic And Vice Versa",
   "action": {
     "default_popup": "popup.html",
-    "default_title": "عربي - فرانكو",
-    "default_icon": {
+    "default_title": "عربي - Franko",
+    "default_icon": "assets/logo-128x128.png",
+    "icons": {
       "16": "assets/logo-16x16.png",
       "32": "assets/logo-32x32.png",
       "48": "assets/logo-48x48.png",
