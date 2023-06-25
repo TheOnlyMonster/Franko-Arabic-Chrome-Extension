@@ -1,13 +1,39 @@
 *{
     font-family: 'Work Sans', sans-serif;
 }
-div{
+#input-text,#output-text{
+    border-radius: 10px;
     overflow-y: scroll;
     width: 200px;
     height: 100px;
     font-size: 18px;
-    border: 1px solid black;
+    outline: 1px solid #0176e0;
     padding: 10px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#input-text:focus{
+    outline: 1px solid #003261;
+}
+::-webkit-scrollbar{
+    background-color: transparent;
+    width: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #0176e0;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    
 }
 .arabic-text{
     direction: rtl;
@@ -18,10 +44,29 @@ div{
 #switch-translation {
     cursor: pointer;
     margin-top: 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    outline: 0px;
+    border: 1px solid #0176e0;
+    padding: 5px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+#switch-translation:hover{
+    background-color: #CCC;
 }
 span{
     position: relative;
     border-bottom: 1px solid red;
+}
+li{
+    color: #2c9cff;
 }
 ul{
     position: absolute;
@@ -38,13 +83,16 @@ ul{
     background-color: white;
     padding: 10px;
     width: fit-content;
-    border-radius: 15%;
-    -webkit-border-radius: 15%;
-    -moz-border-radius: 15%;
-    -ms-border-radius: 15%;
-    -o-border-radius: 15%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
     -webkit-transform: translateX(20%);
     -moz-transform: translateX(20%);
     -ms-transform: translateX(20%);
     -o-transform: translateX(20%);
+}
+footer{
+    margin: 6px;
 }
