@@ -1,11 +1,18 @@
 {
   "manifest_version": 3,
-  "name": "Afahmk - أفهمك",
-  "version": "1.0",
+  "name": "عربي - فرانكو",
+  "version": "1.0.0",
   "description": "Translating Franko To Arabic And Vice Versa",
   "action": {
     "default_popup": "popup.html",
-    "default_title": "Afahmk - أفهمك"
+    "default_title": "عربي - فرانكو",
+    "default_icon": {
+      "16": "assets/logo-16x16.png",
+      "32": "assets/logo-32x32.png",
+      "48": "assets/logo-48x48.png",
+      "128": "assets/logo-128x128.png",
+      "196": "assets/logo-196x196.png"
+    }
   },
-  "host_permissions": ["<all_urls>"]
+  "host_permissions": ["https://datasets-server.huggingface.co/*"]
 }
