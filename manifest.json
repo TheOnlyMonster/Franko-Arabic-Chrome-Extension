@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Afahmk - أفهمك",
+  "version": "1.0",
+  "description": "Translating Franko To Arabic And Vice Versa",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Afahmk - أفهمك"
+  },
+  "host_permissions": ["<all_urls>"]
+}
